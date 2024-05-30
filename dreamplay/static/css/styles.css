@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', cursive;
+}
+#logo{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.vr-heading{
+    text-align: center;
+    text-decoration: overline;
+}
+
+.vr-img{
+    height:90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.row{
+    padding-top: 2%;
+}
+
+.vr-para{
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 110%;
+        
+}
+.kz{
+    background-color: #f9d56e;
+    margin-right: auto;
+}
+.cafe{
+    background-color: #87d4c5;
+    margin-right: auto;
+}
+.vr{
+    margin-right: auto;
+}
+.party{
+    margin-right: auto;
+}
+
+footer{
+    background-color: #212529;
+    
+    padding-top: 2%;
+    color: #f0ece3;
+    font-size: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lab_social_icon_footer {
+    padding-top: 1%;
+    background-color:  #212529;
+  }
+  
+  #lab_social_icon_footer a {
+    color:#f0ece3
+  }
+  
+  #lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+  }
+  
+  #lab_social_icon_footer #social-in:hover {
+    color: #e8505b;
+  }
+
+  
+  #lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+  }
+
+  #lab_social_icon_footer #what:hover{
+    color:#ade498;
+}
+  
+.f-class{
+    text-align: center;
+}

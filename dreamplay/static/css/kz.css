@@ -1,0 +1,166 @@
+.giphy-class .beat{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+body{
+   
+    font-family: 'Pangolin', cursive;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #b2ebf2;
+
+}
+
+
+footer{
+    background-color: #212529;
+    padding-top: 2%;
+    color: #f0ece3;
+    font-size: 95%;
+    margin-left: -5%;
+    margin-right: -5%;
+   
+}
+
+.about-kz{
+    font-size: 115%;
+}
+#lab_social_icon_footer {
+    padding-top: 1%;
+    background-color:  #212529;
+    margin-left: -5%;
+    margin-right: -5%;
+   
+   
+}
+  
+#lab_social_icon_footer a {
+    color:#f0ece3
+    
+}
+  
+#lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+}
+  
+#lab_social_icon_footer #social-in:hover {
+    color: #e8505b;
+}
+
+  
+#lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+}
+
+#lab_social_icon_footer #what:hover{
+    color:#ade498;
+}
+
+.price{
+    background-color:#707708;
+}
+
+.week{
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.w-125{
+    font-size: 25px;
+}
+
+h2{
+    padding-top: 2%;
+}
+
+.ends{
+    padding-bottom: 2%;
+}
+
+.f-class{
+    text-align: center;
+}
+
+
+.columns {
+    width: 85%;
+    padding: 8px;
+    float: center;
+  }
+
+  
+  .pricing {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  
+  
+  .pricing .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .pricing li {
+    border-bottom: 1px solid black;
+    padding: 5%;
+    text-align: center;
+  }
+  
+  .pricing .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  
+  .price-heading{
+    color:black;
+}
+
+.price-table{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.right{
+    float: right;
+}
+
+.center-table{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.attract{
+    width:100%;
+}
+
+.carousel{
+    margin-left: -5%;
+    margin-right: -5%;
+}
+
+tr,th{
+    padding:2%;
+    border:solid ;
+}
+
+table{
+    border: solid;
+    background-color:#3282b8;
+    font-size: 15px;
+}
+

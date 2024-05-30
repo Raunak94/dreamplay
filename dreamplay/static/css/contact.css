@@ -1,0 +1,98 @@
+table{
+    width: 90%;
+    margin: 0;
+}
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Pangolin', cursive;
+}
+
+footer{
+    background-color: #212529;
+    padding-top: 2%;
+    color: #f0ece3;
+    font-size: 95%;
+    margin-left: -5%;
+    margin-right: -5%;
+}
+#lab_social_icon_footer {
+    padding-top: 1%;
+    background-color:  #212529;
+    margin-left: -5%;
+    margin-right: -5%;
+   
+}
+  
+#lab_social_icon_footer a {
+    color:#f0ece3
+    
+}
+  
+#lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+}
+  
+#lab_social_icon_footer #social-in:hover {
+    color: #e8505b;
+}
+
+  
+#lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+}
+
+#lab_social_icon_footer #what:hover{
+    color:#ade498;
+}
+
+.f-class{
+    text-align: center;
+}
+
+
+fieldset {
+    border: solid;
+    padding: 5%;
+    margin-left: -3%;
+    background-color:#f3f3f3;
+}
+
+legend {
+    width:auto; margin-bottom: 0px; 
+}
+
+#btn:hover{
+    background-color: lawngreen;
+}
+
+
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+li{
+    font-size: 100%;
+}

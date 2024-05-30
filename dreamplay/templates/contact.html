@@ -1,0 +1,200 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static "css/contact.css" %}">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>Contact us</title>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand" href="#">
+            <img src="{% static "Dream Play logo (1).png" %}" alt="DREAMPLAY" width="120" height="40" class="d-inline-block align-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vr.html">Virtual Reality</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="kz.html">Kids Play Zone</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <br><br><br>
+
+    <div class="row">
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.096736771199!2d79.11907931422787!3d21.148548185933606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c7851ccb1089%3A0xc8f26386c7ab73cc!2sDreamplay%20VR%20and%20Kids%20Play%20Zone!5e0!3m2!1sen!2sin!4v1596364782744!5m2!1sen!2sin" frameborder="0" style="border:0; margin-left: auto; margin-right: auto; width:100%; height: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col-md-6">
+            <p><h4>Dreamplay VR and Kids Play Zone</h4></p>
+            <p>Uday Chambers 2nd floor, Near Mascot Honda, C.A Road, Telephone Exchange, Nagpur 440008.</p>
+            <p>Phone: +91-9923196589</p>
+            <p>Email: dreamplay.info@gmail.com</p>
+            <br>
+            <b>Working Hours.</b>
+            <br><br>
+            <table>
+                <tr>
+                    <td>Monday</td>
+                    <td>: 11:30 am - 10 pm</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td>: 11:30 am - 10 pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>: 11:30 am - 10 pm</td>
+                </tr>
+                <tr>
+                    <td>Thrusday</td>
+                    <td>: 11:30 am - 10 pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>: 11:30 am - 10 pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>: 11:30 am - 11 pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>: 11:30 am - 11 pm</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <br>
+    <div class="col-md-6">
+    <div class="info">
+        <form action="/contact.html" method="POST">
+        {% csrf_token %}
+            <fieldset>
+            <legend visible="True" runat="server">Submit a query</legend> 
+            <table>
+               <tr>
+                   <td><label for="Name"><b>Name:</b></label></td>
+               </tr>
+               <tr>
+                    <td><input type="text" name="name" placeholder="Name" style="width: 75%;" required></td>
+               </tr>
+            </table>
+            <br>
+            <table>
+               <tr>
+                <td><label for="Contact"><b>Contact Number:</b></label></td>
+            </tr>
+            
+            <tr>
+                 <td><input type="phone" name="phone" placeholder="Contact" style="width: 75%;" required></td>
+            </tr>
+
+            </table>
+            <br>
+            <table>
+               <tr>
+                <td><label for="mail"><b>E-mail:</b></label></td>
+            </tr>
+            
+            <tr>
+                 <td><input type="email" name="email" placeholder="Enter E-mail" style="width: 75%;" required></td>
+            </tr>
+
+            </table>
+            <br>
+            <table>
+               <tr>
+                <td><label for="query"><b>Query</b></label></td>
+            </tr>
+            
+            <tr>
+                 <td><textarea name="about" id="" rows="10" style="width: 75%;" placeholder="Write your query" required></textarea></td>
+            </tr>
+
+            </table>
+            <br>
+            <input type="submit" name="submit" class="btn" onclick="">
+            
+            
+        </form>
+
+        
+
+    </div>
+</div>
+    <br><br>
+    <footer class="f-class">
+        <b> Dreamplay VR and Kids Play Zone</b> <br>
+        Uday Chambers 2nd floor, Near Mascot Honda, C.A Road, Telephone Exchange, Nagpur 440008. <br>
+        Phone: +91-9923196589, Email: dreamplay.info@gmail.com <br>
+        Copyright © Dreamplay. All Rights Reserved.
+    
+      </footer>
+      <section id="lab_social_icon_footer">
+        <!-- Include Font Awesome Stylesheet in Header -->
+    
+        <div class="container">
+          <div class="text-center center-block">
+            <a href='https://www.facebook.com/dreamplaynagpur/' target="_blank"><i id="social-fb"
+                class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="mailto:dreamplay.info@gmail.com" target="_blank"><i id="social-em"
+                class="fa fa-envelope-square fa-3x social"></i></a>
+            <a href="https://www.instagram.com/dreamplaynagpur/?hl=en" target="_blank"><i id="social-in"
+                class="fa fa-instagram fa-3x social"></i></a>
+            <a href="https://wa.me/919923196589?text=Hello" target="_blank"><i id="what"
+                class="fa fa-whatsapp fa-3x social"></i></a>
+    
+    
+          </div>
+        </div>
+      </section>
+            
+
+</body>
+
+</html>

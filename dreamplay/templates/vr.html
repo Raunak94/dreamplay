@@ -1,0 +1,295 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{% static "css/vr.css" %}">
+  <link rel="stylesheet"
+    href="C:\Users\Raunak\Downloads\Compressed\bootstrap-4.5.0-dist_3\bootstrap-4.5.0-dist\css\bootstrap.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <title>Virtual Reality</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+    <a class="navbar-brand" href="#">
+      <img src="{% static "Dream Play logo (1).png" %}" alt="DREAMPLAY" width="120" height="40" class="d-inline-block align-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span> </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="vr.html">Virtual Reality</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kz.html">Kids Play Zone</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <br><br><br>
+
+  <div id="carouselExampleIndicators" class="carousel slide head" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active giphy-class">
+        <img class="myimg" src="https://media.giphy.com/media/XBAEHjRhqOciqCieHl/giphy.gif" class="d-block beat w-100"
+          alt="BEAT SABER">
+      </div>
+      <div class="carousel-item giphy-class">
+        <img class="myimg" src="https://media.giphy.com/media/VHqRUYpumzPHeg1h6d/giphy.gif" class="d-block beat w-100"
+          alt="PISTOL WHIP">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <br>
+
+  <p class="about-vr"><b> Dreamplay provides the highest quality VR experiences using cutting-edge technology powered by
+      Oculus. We provide a collection of 20+ games to choose from allowing you to kill zombies, hit sixes across the
+      ground, ride a breathtaking roller coaster, dance on your favorite bollywood numbers, play tennis, boxing and so
+      much more!</p><br>
+
+  <p class="about-vr">Each Dreamplay VR station consists of</p>
+  <ul class="about-vr">
+    <li>A 10x10 ft area for playing.</li>
+    <li>A high-definition projection display so your friends can see what you see in VR.</li>
+    <li>Lounge style seating for your friends.</li>
+  </ul>
+  <p class="about-vr">You can book our VR stations at hourly rates listed below or simply try VR for first time through
+    our small experiences (5-10 min). We also host regular VR tournaments and parties so make sure to follow us on
+    facebook and instagram.</p></b> <br>
+
+  <h1 class="price-heading"><u>Pricing</u></h1><br>
+  <h2 class="price-heading">Weekdays(Mon-Fri)</h2>
+  <table style="width:100%; text-align:center;">
+  <tr>
+  	<th>Player</th>
+    <th>15 Min</th>
+    <th>30 Min</th>
+    <th>60 Min</th> 
+    
+  </tr>
+  <tr>
+    <th>Single Player</th>
+    <th>Rs. 125/-</th>
+    <th>Rs. 250/-</th>
+    <th>Rs. 400/-</th>
+  </tr>
+  <tr>
+    <th>Multi Player</th>
+    <th>Rs. 150/-</th>
+    <th>Rs. 250/-</th>
+    <th>Rs. 400/-</th>
+  </tr>
+</table>
+<br>
+
+  <h2 class="price-heading">Weekends(Sat-Sun)</h2>
+   <table style="width:100%; text-align:center;">
+  <tr>
+  	<th>Player</th>
+    <th>15 Min</th>
+    <th>30 Min</th>
+    <th>60 Min</th> 
+    
+  </tr>
+  <tr>
+    <th>Single Player</th>
+    <th>Rs. 150/-</th>
+    <th>Rs. 300/-</th>
+    <th>Rs. 450/-</th>
+  </tr>
+  <tr>
+    <th>Multi Player</th>
+    <th>Rs. 150/-</th>
+    <th>Rs. 250/-</th>
+    <th>Rs. 400/-</th>
+  </tr>
+</table>
+<br>
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h1> Party Option</h1>
+          </button>
+        </h2>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p> When you want to throw the most fun and memorable party ever, DREAMPLAY is your destination!</p>
+
+          <p class=> Whether celebrating a birthday, planning an employee party or corporate event, or awarding your
+            kids, host your event at DREAMPLAY and take it to the next level by incorporating virtual reality.</p>
+
+          <p> We can create a competitive but fun VR tournament for your group or a simple setup for collaborative group
+            play. We'd be happy to coordinate with you for your food and drink packages. What's more, we can also bring
+            VR to your party at the destination of your choice so you can amaze your guests!</p>
+
+          <p> Contact us at today at +91-99923196589 and let us know about your Dream Party :-)</p>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <br><br>
+  <div class="card-deck">
+    <div class="card">
+      <img src="{% static "photo/5.jpg" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><u> Beat Saber</u></h5>
+        <p class="card-text">Beat Saber is a VR rhythm game where you slash the beats of adrenaline-pumping music as
+          they fly towards you, surrounded by a futuristic world. .</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static "photo/6.jpg" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><u>Richie's Plank</u></h5>
+        <p class="card-text">Richie's Plank is the only VR experience that lets you clone any real-world plank into the
+          virtual world for 2X the immersion. Includes 4 bonus modes.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static "photo/7.jpg" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><u>Superhot VR</u></h5>
+        <p class="card-text">Superhot VR is a game in which time moves and enemies come toward you only when your body
+          moves </p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="card-deck">
+    <div class="card">
+      <img src="{% static "photo/8.jpg" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><u>The Blu</u></h5>
+        <p class="card-text">theBlu is a deeply immersive VR series that allows audiences to experience the wonder and
+          majesty of the ocean through different habitats.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static "photo/9.jpg" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><u>Pistol Whip</u></h5>
+        <p class="card-text">Pistol Whip is a VR game that mixes Beat Saber with John Wick” Polygon.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static "photo/10.jpg" %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><u>Table Tennis</u></h5>
+        <p class="card-text">Eleven: Table Tennis VR. The ultimate Table Tennis simulator. Play opponents in online
+          multiplayer or practice against the advanced AI.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="card-deck">
+  <div class="card">
+    <img src="{% static "photo/22.jpg" %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Virtual Battlegrounds</h5>
+      <p class="card-text">Virtual Battlegrounds is a VR Battle Royale built from the ground up for virtual reality. Battle to become the last warrior standing on this dystopian war-crazed island with tactical gun-play, an epic map, and physically controlled locomotion.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static "photo/20.jpg" %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Arizona Sunshine</h5>
+      <p class="card-text">Arizona Sunshine is a zombie survival first-person shooter video game and also have multiplayer </p>
+      </div>
+  </div>
+  <div class="card">
+    <img src="{% static "photo/21.jpg" %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">VR Cricket</h5>
+      <p class="card-text">A fun pick-up-and-play Cricket game which puts you on the pitch to see how many runs you can blast in a 5 or 10 over match.</p>
+      
+    </div>
+  </div>
+</div>
+<br>
+
+  <footer class="f-class">
+    <b> Dreamplay VR and Kids Play Zone</b> <br>
+    Uday Chambers 2nd floor, Near Mascot Honda, C.A Road, Telephone Exchange, Nagpur 440008. <br>
+    Phone: +91-9923196589, Email: dreamplay.info@gmail.com <br>
+    Copyright © Dreamplay. All Rights Reserved.
+
+  </footer>
+  <section id="lab_social_icon_footer">
+    <!-- Include Font Awesome Stylesheet in Header -->
+
+    <div class="container">
+      <div class="text-center center-block">
+        <a href='https://www.facebook.com/dreamplaynagpur/' target="_blank"><i id="social-fb"
+            class="fa fa-facebook-square fa-3x social"></i></a>
+        <a href="mailto:dreamplay.info@gmail.com" target="_blank"><i id="social-em"
+            class="fa fa-envelope-square fa-3x social"></i></a>
+        <a href="https://www.instagram.com/dreamplaynagpur/?hl=en" target="_blank"><i id="social-in"
+            class="fa fa-instagram fa-3x social"></i></a>
+        <a href="https://wa.me/919923196589?text=Hello" target="_blank"><i id="what"
+            class="fa fa-whatsapp fa-3x social"></i></a>
+
+
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
